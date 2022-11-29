@@ -42,7 +42,7 @@
   python manage.py createsuperuser
 ```
 > - Ingesting the data:<br>
-  Run pytohn shell in terminal using command: 
+  Run python shell in terminal using command: 
 ```bash
 python manage.py shell 
 ```
