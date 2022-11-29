@@ -1,0 +1,24 @@
+2022-11-29 10:35:57,989 [INFO] Ingestion of Weather Data Begins
+2022-11-29 10:37:03,359 [INFO] Ingestion of weather data completed successfully
+2022-11-29 10:37:03,361 [INFO] Time taken: 65.370159	 Number of rows inserted: 1729957
+2022-11-29 10:38:07,571 [INFO] Ingestion of yield data begins
+2022-11-29 10:38:07,578 [INFO] Ingestion of yield data completed successfully
+2022-11-29 10:38:07,578 [INFO] Time taken: 0.006261	 Number of rows inserted: 30
+2022-11-29 10:54:02,003 [INFO] Ingestion of Weather Data Begins
+2022-11-29 10:54:21,941 [ERROR] UNIQUE constraint failed: assignment_weather.station_name, assignment_weather.date
+2022-11-29 10:54:41,050 [INFO] Ingestion of yield data begins
+2022-11-29 11:37:56,000 [INFO] Ingestion of Weather Data Begins
+2022-11-29 11:39:01,152 [INFO] Ingestion of weather data completed successfully
+2022-11-29 11:39:01,154 [INFO] Time taken: 65.152567	 Number of rows inserted: 1729957
+2022-11-29 12:55:57,398 [INFO] Ingestion of Weather Data Begins
+2022-11-29 12:57:10,110 [INFO] Ingestion of weather data completed successfully
+2022-11-29 12:57:10,115 [INFO] Time taken: 72.711941	 Number of rows inserted: 1729957
+2022-11-29 12:57:36,393 [INFO] Ingestion of yield data begins
+2022-11-29 12:57:36,400 [INFO] Ingestion of yield data completed successfully
+2022-11-29 12:57:36,400 [INFO] Time taken: 0.006223	 Number of rows inserted: 30
+2022-11-29 14:29:36,098 [INFO] Ingestion of Weather Data Begins
+2022-11-29 14:30:42,784 [INFO] Ingestion of weather data completed successfully
+2022-11-29 14:30:42,788 [INFO] Time taken: 66.689123	 Number of rows inserted: 1729957
+2022-11-29 14:31:04,224 [INFO] Ingestion of yield data begins
+2022-11-29 14:31:04,230 [INFO] Ingestion of yield data completed successfully
+2022-11-29 14:31:04,230 [INFO] Time taken: 0.005466	 Number of rows inserted: 30

@@ -1,0 +1,27 @@
+1. Modeling of Data:
+    - Created three Models 
+    - Weather (to store the weather data)
+    - Yield (to store the yield data)
+    - WeatherStats (to store the weather statistics data)
+
+2. Data Ingestion:
+    - created src/corteva_agri/assignment/ingest.py.
+    - ingest.py contains ingest_weather_data() & ingest_yield_data. 
+    - ingest_weather_data() to read the weather data and save in Weather Model.
+    - ingest_yield_data() to read the yield data and save in Yield Model.
+
+3. Data Analysis:
+    - generate_statistics_data() function calculates 
+      the average maximum temperature, average minimum temperature, total accumulated
+      precipitation for every year, for every weather station.
+      (constraints applied)
+    - all the analysed data stored in the WeatherStats Model.
+    
+4. Rest API’s task :
+    - Created three REST API's
+    - (api/weather) - fetches all the weather data.
+    - (api/yield) - fetches all the yield data.
+    - (api/weather/stats) - fetches all the analysed data.
+
+-All the logs will be stored in answers/output.log.
+-Pagination & filtering in API has implemented.
